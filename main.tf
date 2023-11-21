@@ -1,4 +1,6 @@
-provider "aws" {}
+provider "aws" {
+  region = "eu-west-3"
+}
 
 variable vpc_cidr_block {}
 variable subnet_cidr_block {}
